@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ],
+      "env": {
+        "POSTGRES_URL": "postgresql://postgres:your-postgres-password@db.vtvmnxdyqibdblkvlmfm.supabase.co:5432/postgres"
+      }
+    }
+  }
+}
